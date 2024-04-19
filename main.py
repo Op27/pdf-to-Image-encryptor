@@ -10,7 +10,7 @@ key = Fernet.generate_key()
 cipher_suite = Fernet(key)
 
 # Open the PDF file
-pdf_path = r'C:\Users\owner\Documents\my_project\pdf_to_image\image.pdf'
+pdf_path = r'C:\PATH-TO-YOUR-PDF-FILE\image.pdf'
 doc = fitz.open(pdf_path)
 
 # Specify the number of pages to convert
